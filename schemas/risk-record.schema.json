@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adaptiveintelligencecircle.example/schemas/risk_record.schema.json",
+  "title": "AIC Risk Orientation Record",
+  "description": "Optional structure for internal risk orientation notes. NOT a legal or compliance record.",
+  "type": "object",
+  "properties": {
+    "disclaimer": {
+      "type": "string",
+      "const": "NOT LEGAL ADVICE. Orientation only. No compliance determination or immunity implied."
+    },
+    "component": { "type": "string" },
+    "version_or_commit": { "type": "string" },
+    "author": { "type": "string" },
+    "date": { "type": "string", "format": "date" },
+    "context": {
+      "type": "string",
+      "enum": ["research", "testnet", "internal", "other"]
+    },
+    "orientation_band": {
+      "type": "string",
+      "enum": [
+        "low_orientation",
+        "moderate_gated",
+        "elevated_careful",
+        "out_of_current_scope_or_needs_redesign"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "function": { "type": "string" },
+        "autonomy_and_human_gate": { "type": "string" },
+        "scope_of_impact": { "type": "string" },
+        "fail_posture": { "type": "string" },
+        "data_and_identity": { "type": "string" },
+        "transparency": { "type": "string" },
+        "continuity_and_governance": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "assumptions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "human_signoff": { "type": "string" }
+  },
+  "required": ["disclaimer", "component", "date", "orientation_band"],
+  "additionalProperties": false
+}

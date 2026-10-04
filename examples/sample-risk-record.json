@@ -1,0 +1,26 @@
+{
+  "disclaimer": "NOT LEGAL ADVICE. Orientation only. No compliance determination or immunity implied.",
+  "component": "example-ethical-kernel-stub",
+  "version_or_commit": "docs-only-example",
+  "author": "orientation-example",
+  "date": "2026-10-04",
+  "context": "research",
+  "orientation_band": "low_orientation",
+  "dimensions": {
+    "function": "Illustrative decision stub for documentation",
+    "autonomy_and_human_gate": "NeedHuman modeled; no production actuation",
+    "scope_of_impact": "Documentation and TestNet experimentation only",
+    "fail_posture": "Fail-closed leaning in design intent",
+    "data_and_identity": "No personal data in this example",
+    "transparency": "Public under-claim documentation",
+    "continuity_and_governance": "Pre-Covenant; no token rule-power"
+  },
+  "assumptions": [
+    "Example only — not a real deployment assessment"
+  ],
+  "next_actions": [
+    "Keep as documentation example",
+    "Do not treat as compliance evidence"
+  ],
+  "human_signoff": "Example author — orientation only"
+}
