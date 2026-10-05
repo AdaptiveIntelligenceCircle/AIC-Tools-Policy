@@ -67,7 +67,7 @@ AIC-Policy-Tools/
 - **AIC-Legal** — authoritative place for formal policy and legal-oriented documents; this repo supplies supporting tools and orientation only.
 - **AIC-Formal / AIC-Security-Harness** — technical properties and testing; policy tools remain separate and non-binding.
 - **AIC-TransparencyDashboard** — public accountability surface; policy orientation notes may later inform what is disclosed, but no automatic link is assumed.
-- **AIC-Start-Here / MyVision** — philosophical and onboarding context.
+- **AIC-Beginners / MyVision** — philosophical and onboarding context.
 
 ## Principles observed
 
