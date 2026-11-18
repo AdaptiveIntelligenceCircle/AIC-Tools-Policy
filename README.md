@@ -78,6 +78,15 @@ AIC-Policy-Tools/
 - **Pre-Covenant**: nothing here advances a mainnet or Covenant declaration.
 - **Not legal advice**: repeated in documentation and scripts.
 
+## Limitations 
+Policy tools cannot:
+
+- guarantee compliance
+- ensure ethical outcomes
+- replace human judgement
+- replace governance
+- replace stewardship
+
 ## License
 
 GPL-3.0-or-later for scripts and structure (see LICENSE).  
